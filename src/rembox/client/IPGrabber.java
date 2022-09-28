@@ -17,7 +17,7 @@ public class IPGrabber {
         //IP is read from servers only every 30 seconds at most to minimize traffic
         if(System.currentTimeMillis() - lastConnectionTime >= 30000 && !useLocalhost) {
             //Fetch server IP from pastebin and connect
-            URL url = new URL("https://pastebin.com/raw/2NVcB6jC");
+            URL url = new URL("https://pastebin.com/raw/########"); //Replace the #s with your own Pastebin ID, where you save the IP you want to connect to
             cachedIP = new BufferedReader(new InputStreamReader(url.openStream())).readLine();
         } else if(useLocalhost) {
             cachedIP = "localhost:32767";
