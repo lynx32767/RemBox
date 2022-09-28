@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RemBox:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RemBox_jar</output-path>
+    <root id="archive" name="RemBox.jar">
+      <element id="module-output" name="RemBox" />
+    </root>
+  </artifact>
+</component>
